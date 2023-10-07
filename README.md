@@ -1,4 +1,4 @@
-```mermaid
+```
 sequenceDiagram
     agendador->+contaCorrente: debitar()
     contaCorrente->+agendador: badRequeest (400) -> saldoInsuficiente
